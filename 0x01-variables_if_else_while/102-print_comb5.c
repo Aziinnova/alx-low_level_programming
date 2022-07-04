@@ -1,45 +1,49 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
 /**
- * * main - Entry point
- * *
- * * Return: Always 0 (Success)
-  */
+ *  * main - main block
+ *   * Description: Write a program that prints all possible
+ *    * different combinations of two digits
+ *     * Return: 0
+       */
 int main(void)
 {
-	int j = 0;
-	while (j <= 99)
+	int c;
+	int d;
+	int e;
+	int f = 0;
+
+	while (f < 10)
 	{
-		int i = j;
-		while (i <= 99)
-		{
-			if (i != j)
-			{
-				int toPrint;
-				if (j >= 0 && j <= 9)
-					toPrint = 48;
-				else
-					toPrint = j / 10 + 48;
-				putchar(toPrint);
-				putchar(j % 10 + 48);
-				putchar(' ');
-				if (i >= 0 && i <= 9)
-					toPrint = 48;
-				else
-					toPrint = i / 10 + 48;
-				putchar(toPrint);
-				putchar(i % 10 + 48);
-				if (j * 100 + i != 9899)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
-			i++;
-		}
-		j++;
+			e = 0;
+				while (e < 10)
+						{
+									d = 0;
+											while (d < 10)
+														{
+																		c = 0;
+																					while (c < 10)
+																									{
+																														if (!(f == c && e == d))
+																																			{
+																																									putchar('0' + f);
+																																														putchar('0' + e);
+																																																			putchar(' ');
+																																																								putchar('0' + d);
+																																																													putchar('0' + c);
+																																																																		if (!(f + e == 18 && c + d == 17 && d == 9))
+																																																																								{
+																																																																															putchar(',');
+																																																																																					putchar(' ');
+																																																																																										}
+																																																																						}
+																																		c++;
+																																					}
+																								d++;
+																										}
+													e++;
+														}
+					f++;
 	}
 	putchar('\n');
 	return (0);
