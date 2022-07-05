@@ -1,8 +1,8 @@
-nclude "holberton.h"
+#include "main.h"
 /**
  *  * print_alphabet - prints alphabet
     */
-vioid print_alphabet(void)
+void print_alphabet(void)
 {
 		char a;
 
