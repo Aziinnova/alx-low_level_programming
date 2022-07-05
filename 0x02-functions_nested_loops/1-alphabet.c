@@ -11,7 +11,7 @@ void print_alphabet()
 				_putchar('\n');
 }
 */
-int main() {
+int main(void) {
 	    char c;
 	        for (c = 'a'; c <= 'z'; ++c)
 			        printf("%c ", c);
