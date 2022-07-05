@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<main.h>
 /* print */
 int main(){
 int i=0 ,j;
