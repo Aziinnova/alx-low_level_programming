@@ -2,7 +2,7 @@
 /**
  *  * print_alphabet - prints alphabet
     */
-void print_alphabet()
+int print_alphabet(void)
 {
 		char a;
 
