@@ -1,18 +1,19 @@
-#include <stdio.h>
-#include<main.h>
-/* print */
-int main(){
-int i=0 ,j;
-while(i<1){
-
-	j=0;
-	while(j<1){
-printf("_putchar");
-j++;
-	}
-printf("\n");
-i++;
-}
-return 0;
-
+#include "holberton.h"
+/**
+ * *main - prints Holberton
+ * *Return: 0
+  */
+int main(void)
+{
+		_putchar('H');
+			_putchar('o');
+				_putchar('l');
+					_putchar('b');
+						_putchar('e');
+							_putchar('r');
+								_putchar('t');
+									_putchar('o');
+										_putchar('n');
+											_putchar('\n');
+												return (0);
 }
