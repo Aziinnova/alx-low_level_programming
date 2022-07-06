@@ -1,20 +1,15 @@
 #include "main.h"
 /**
- *  * print_alphabet - prints alphabet
-
-*
-void printalfa(void) {
-	    char c;
-	        for (c = 'a'; c <= 'z'; ++c)
-			        printf("%c ", c);
-		    re*/
-
-int main()
+ * *print_alphabet - function that print alphabet
+ * *it prints in lowercase
+ * *Return: no return
+  */
+void print_alphabet(void)
 {
-	    for(int x = 'a'; x <= 'z'; x++)
-		        {
-				        x = tolower(x);
-					        putchar(x);
-						    }
-	        return 0;
+	int letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		_putchar (letter);
+	}
+	_putchar (10);
 }
