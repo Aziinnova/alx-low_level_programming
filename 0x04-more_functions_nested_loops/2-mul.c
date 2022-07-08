@@ -1,6 +1,6 @@
 #include "main.h"
 #include "holberton.h"
-
+#include <stdio.h>
 /**
  * * mul - a function that multiplies two integers
  * * @a: first input
