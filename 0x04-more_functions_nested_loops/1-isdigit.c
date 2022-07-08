@@ -6,7 +6,7 @@
  *     * Return: 1- Digit 0- Not
        */
 
-int _isdigit(int c)
+int isdigit(int c)
 {
 		if (c >= 48 && c <= 57)
 					return (1);
