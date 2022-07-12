@@ -5,7 +5,7 @@
  *   * @a: pointer1
  *    * @b: pointer2
  *     * Return: void
- *     */
+      */
 
 void swap_int(int *a, int *b)
 {
