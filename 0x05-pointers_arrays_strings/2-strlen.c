@@ -9,11 +9,11 @@
 
 int _strlen(char *s)
 {
-	int count, inc;
-	inc = 0;
+	    char *str;
+	        int len;
 
-	for (count = 0; s[count] != '\0'; count++)
-		inc++;
-
-	return (inc);
+		    str = "My first strlen!";
+		        len = _strlen(str);
+			    printf("%d\n", len);
+			        return (0);
 }
