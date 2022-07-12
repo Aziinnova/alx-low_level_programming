@@ -1,6 +1,6 @@
 #include "main.h"
 
-#include <stdio.h
+#include <stdio.h>
 /**
  * * _strcpy - Copy paste string
  * *@dest: destination
