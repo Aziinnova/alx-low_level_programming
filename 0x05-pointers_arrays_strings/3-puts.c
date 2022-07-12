@@ -5,15 +5,10 @@
  *   * @str: pointer to the string to print
  *    * Return: void
      */
-
-
-void _puts(char *str)
-{
-	int i = 0;
-	while (str[i])
+	void _puts(char *str)
 	{
-		        _putchar(str[i]);
-			        i++;
-	}
-	_putchar('\n');
+		while (*str)
+			_putchar(*str++);
+
+		_putchar('\n');
 }
