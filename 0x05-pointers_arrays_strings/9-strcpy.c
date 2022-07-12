@@ -2,12 +2,14 @@
 #include <stdio.h>
 /**
  * * _strcpy - Copy paste string
- * *@src: sourc
- */
+ * *@dest: destination
+ * *@src: source
+ * *Return: dest
+  */
 char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;
-	while(*(src + inc) != '\0')
+	while (*(src + inc) != '\0')
 	{
 		*(dest + inc) = *(src + inc);
 		inc++;
@@ -15,3 +17,5 @@ char *_strcpy(char *dest, char *src)
 	*(dest + inc) = '\0';
 	return (dest);
 }
+
+
