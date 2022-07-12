@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 #include <stdio.h>
 /**
  *  * rev_string - prints reversed string, followed by a new line
