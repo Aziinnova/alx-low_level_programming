@@ -21,6 +21,11 @@ int divisors(int n, int m)
 									return (1);
 										}
 }
+/**
+ *  * is_prime_number - prime
+ *   * @n: integer params
+ *    * Return: recursion
+      */
 int is_prime_number(int n)
 {
 		if ((!(n % 2) && n != 2) || n < 2)
