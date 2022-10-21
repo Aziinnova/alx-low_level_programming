@@ -1,5 +1,7 @@
 #include "hash_tables.h"
-
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
 /**
  *  * set_pair - mallocs a key/value pair to the hash table.
  *   * @key: the key, a string that cannot be empty.
