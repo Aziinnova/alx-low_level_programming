@@ -1,2 +1,2 @@
-iall: main.c holberton.c
-    gcc -c main.c holberton.c -o school
+all: main.c school.c
+    gcc -c main.c school.c -o school
