@@ -1,16 +1,21 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * *print_alphabet - function that print alphabet
- * *it prints in lowercase
- * *Return: no return
-  */
+ * print_alphabet - check the code for ALX School students.
+ *
+ * Return: Always 0.
+ */
+
 void print_alphabet(void)
 {
-	int letter;
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char alp = 'a';
+
+	while (alp <= 'z')
 	{
-		_putchar (letter);
+		_putchar (alp);
+		alp++;
+
 	}
-	return (0);
+	_putchar ('\n');
+
 }
