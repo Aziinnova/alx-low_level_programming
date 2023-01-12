@@ -1,32 +1,28 @@
-#include "holberton.h"
 #include <stdio.h>
+
 /**
- *  * main - prints first 50 numbers of the fibonacci sequence
- *   * Return: 0
-     */
+ * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
+ * followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
-
-		int i, n;
-			long f1, f2, next;
-
-				f1 = 1;
-					f2 = 2;
-						n = 50;
-
-							for (i = 0; i < n; i++)
-								{
-											if (i == 49)
-														{
-																		printf("%lu", f1);
-																				} else
-																							{
-																											printf("%lu, ", f1);
-																														next = f1 + f2;
-																																	f1 = f2;
-																																				f2 = next;
-																																						}
-																					}
-	printf("\n");
-		return (0);
-		}
+{
+long int i, j, k, next;
+j = 1;
+k = 2;
+for (i = 1; i <= 50; ++i)
+{
+if (j != 20365011074)
+{
+printf("%ld, ", j);
+}
+else
+{
+printf("%ld\n", j);
+}
+next = j + k;
+j = k;
+k = next;
+}
+return (0);
+}
